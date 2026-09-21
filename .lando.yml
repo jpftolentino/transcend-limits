@@ -1,0 +1,6 @@
+name: transcend-limits
+recipe: pantheon
+config:
+  framework: wordpress
+  site: transcend-limits
+  id: fba56529-0202-4393-96cd-9464cd316a5e
