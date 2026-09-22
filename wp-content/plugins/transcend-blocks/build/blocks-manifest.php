@@ -1,6 +1,45 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
+	'hero' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'transcend/hero',
+		'version' => '0.1.0',
+		'title' => 'Hero',
+		'category' => 'design',
+		'icon' => 'cover-image',
+		'description' => 'The Transcend Limits homepage hero.',
+		'attributes' => array(
+			'title' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'imageId' => array(
+				'type' => 'number'
+			),
+			'imageUrl' => array(
+				'type' => 'string'
+			),
+			'imageAlt' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'ctaText' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'ctaUrl' => array(
+				'type' => 'string',
+				'default' => ''
+			)
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'transcend-blocks',
+		'editorScript' => 'file:./index.js'
+	),
 	'site-header' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,

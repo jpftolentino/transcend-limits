@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "transcend/hero",
+	"version": "0.1.0",
+	"title": "Hero",
+	"category": "design",
+	"icon": "cover-image",
+	"description": "The Transcend Limits homepage hero.",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number"
+		},
+		"imageUrl": {
+			"type": "string"
+		},
+		"imageAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"ctaText": {
+			"type": "string",
+			"default": ""
+		},
+		"ctaUrl": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "transcend-blocks",
+	"editorScript": "file:./index.js"
+}
