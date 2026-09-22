@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "transcend/story-grid",
+  "version": "0.1.0",
+  "title": "Story Grid",
+  "category": "design",
+  "icon": "grid-view",
+  "description": "Displays published Transcend Limits stories.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "transcend-blocks",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

@@ -29,10 +29,13 @@ $stories = array(
 <p>The ranking reflects the breadth of research taking place across the university, from medicine and engineering to the natural sciences, social sciences and humanities.</p>
 HTML,
 		'image'   => array(
-			'url'    => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/University_College,_University_of_Toronto.jpg',
-			'file'   => 'global-research-leader.jpg',
-			'credit' => 'Nat - CC BY-SA 3.0',
-			'source' => 'https://commons.wikimedia.org/wiki/File:University_College,_University_of_Toronto.jpg',
+			'url'         => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/University_College,_University_of_Toronto.jpg',
+			'file'        => 'global-research-leader.jpg',
+			'alt'         => 'University College at the University of Toronto',
+			'author'      => 'Nat',
+			'license'     => 'CC BY-SA 3.0',
+			'license_url' => 'https://creativecommons.org/licenses/by-sa/3.0/',
+			'source'      => 'https://commons.wikimedia.org/wiki/File:University_College,_University_of_Toronto.jpg',
 		),
 	),
 
@@ -49,10 +52,13 @@ HTML,
 <p>The result highlights the scale of research conducted across the university and the international reach of work produced by its scholars.</p>
 HTML,
 		'image'   => array(
-			'url'    => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Robarts_Library_University_of_Toronto.jpg',
-			'file'   => 'canadas-research-powerhouse.jpg',
-			'credit' => 'Adam Bishop - CC BY-SA 4.0',
-			'source' => 'https://commons.wikimedia.org/wiki/File:Robarts_Library_University_of_Toronto.jpg',
+			'url'         => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Robarts_Library_University_of_Toronto.jpg',
+			'file'        => 'canadas-research-powerhouse.jpg',
+			'alt'         => 'Robarts Library at the University of Toronto',
+			'author'      => 'Adam Bishop',
+			'license'     => 'CC BY-SA 4.0',
+			'license_url' => 'https://creativecommons.org/licenses/by-sa/4.0/',
+			'source'      => 'https://commons.wikimedia.org/wiki/File:Robarts_Library_University_of_Toronto.jpg',
 		),
 	),
 
@@ -69,10 +75,13 @@ HTML,
 <p>U of T also ranked first in Canada across all five broad fields, demonstrating internationally competitive performance across the full spectrum of academic study.</p>
 HTML,
 		'image'   => array(
-			'url'    => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Convocation_Hall,_University_of_Toronto.jpg',
-			'file'   => 'excellence-across-every-field.jpg',
-			'credit' => 'Carrie Groskopf - CC BY-SA 4.0',
-			'source' => 'https://commons.wikimedia.org/wiki/File:Convocation_Hall,_University_of_Toronto.jpg',
+			'url'         => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Convocation_Hall,_University_of_Toronto.jpg',
+			'file'        => 'excellence-across-every-field.jpg',
+			'alt'         => 'Convocation Hall at the University of Toronto',
+			'author'      => 'Carrie Groskopf',
+			'license'     => 'CC BY-SA 4.0',
+			'license_url' => 'https://creativecommons.org/licenses/by-sa/4.0/',
+			'source'      => 'https://commons.wikimedia.org/wiki/File:Convocation_Hall,_University_of_Toronto.jpg',
 		),
 	),
 
@@ -89,10 +98,13 @@ HTML,
 <p>U of T's medical and health programs produced an especially strong result, ranking ninth globally for the third consecutive year.</p>
 HTML,
 		'image'   => array(
-			'url'    => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/University_of_Toronto_Mississauga_2022.jpg',
-			'file'   => 'top-30-in-everything.jpg',
-			'credit' => 'Canmenwalker - CC BY 4.0',
-			'source' => 'https://commons.wikimedia.org/wiki/File:University_of_Toronto_Mississauga_2022.jpg',
+			'url'         => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/University_of_Toronto_Mississauga_2022.jpg',
+			'file'        => 'top-30-in-everything.jpg',
+			'alt'         => 'University of Toronto Mississauga campus',
+			'author'      => 'Canmenwalker',
+			'license'     => 'CC BY 4.0',
+			'license_url' => 'https://creativecommons.org/licenses/by/4.0/',
+			'source'      => 'https://commons.wikimedia.org/wiki/File:University_of_Toronto_Mississauga_2022.jpg',
 		),
 	),
 
@@ -109,10 +121,13 @@ HTML,
 <p>Artificial intelligence was not the university's only standout subject. U of T placed among the global top 10 in five subjects and was Canada's highest-ranked university in 28 subjects.</p>
 HTML,
 		'image'   => array(
-			'url'    => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Bahen_Centre_for_Information_Technology_atrium.jpg',
-			'file'   => 'ai-among-worlds-best.jpg',
-			'credit' => 'Nayuki - CC BY 2.0',
-			'source' => 'https://commons.wikimedia.org/wiki/File:Bahen_Centre_for_Information_Technology_atrium.jpg',
+			'url'         => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Bahen_Centre_for_Information_Technology_atrium.jpg',
+			'file'        => 'ai-among-worlds-best.jpg',
+			'alt'         => 'Atrium of the Bahen Centre for Information Technology at the University of Toronto',
+			'author'      => 'Nicholas Moreau',
+			'license'     => 'CC BY-SA 3.0',
+			'license_url' => 'https://creativecommons.org/licenses/by-sa/3.0/',
+			'source'      => 'https://commons.wikimedia.org/wiki/File:Bahen_Centre_for_Information_Technology_atrium.jpg',
 		),
 	),
 
@@ -129,16 +144,22 @@ HTML,
 <p>The university's sustainability efforts extend across its three campuses, connecting research and education with changes to campus infrastructure and operations.</p>
 HTML,
 		'image'   => array(
-			'url'    => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Uoft_kmdi_0114.jpg',
-			'file'   => 'sustainability-on-world-stage.jpg',
-			'credit' => 'Nicholas Moreau - CC BY-SA 1.0',
-			'source' => 'https://commons.wikimedia.org/wiki/File:Uoft_kmdi_0114.jpg',
+			'url'         => 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Uoft_kmdi_0114.jpg',
+			'file'        => 'sustainability-on-world-stage.jpg',
+			'alt'         => 'Bahen Centre for Information Technology at the University of Toronto',
+			'author'      => 'Nicholas Moreau',
+			'license'     => 'CC BY-SA 3.0',
+			'license_url' => 'https://creativecommons.org/licenses/by-sa/3.0/',
+			'source'      => 'https://commons.wikimedia.org/wiki/File:Uoft_kmdi_0114.jpg',
 		),
 	),
 );
 
 /**
- * Download an image and attach it to a post.
+ * Download an image and attach it to a Story.
+ *
+ * If the seeded attachment already exists, update its metadata
+ * instead of downloading another copy.
  */
 function transcend_seed_featured_image( $image, $post_id, $title ) {
 	$existing = get_posts(
@@ -152,7 +173,39 @@ function transcend_seed_featured_image( $image, $post_id, $title ) {
 	);
 
 	if ( ! empty( $existing ) ) {
-		return $existing[0]->ID;
+		$attachment_id = $existing[0]->ID;
+
+		update_post_meta(
+			$attachment_id,
+			'_wp_attachment_image_alt',
+			$image['alt']
+		);
+
+		update_post_meta(
+			$attachment_id,
+			'_transcend_image_author',
+			$image['author']
+		);
+
+		update_post_meta(
+			$attachment_id,
+			'_transcend_image_license',
+			$image['license']
+		);
+
+		update_post_meta(
+			$attachment_id,
+			'_transcend_image_license_url',
+			$image['license_url']
+		);
+
+		update_post_meta(
+			$attachment_id,
+			'_transcend_image_source',
+			$image['source']
+		);
+
+		return $attachment_id;
 	}
 
 	$tmp = download_url( $image['url'] );
@@ -190,14 +243,32 @@ function transcend_seed_featured_image( $image, $post_id, $title ) {
 
 	update_post_meta(
 		$attachment_id,
+		'_wp_attachment_image_alt',
+		$image['alt']
+	);
+
+	update_post_meta(
+		$attachment_id,
 		'_transcend_seed_image',
 		$image['file']
 	);
 
 	update_post_meta(
 		$attachment_id,
-		'_transcend_image_credit',
-		$image['credit']
+		'_transcend_image_author',
+		$image['author']
+	);
+
+	update_post_meta(
+		$attachment_id,
+		'_transcend_image_license',
+		$image['license']
+	);
+
+	update_post_meta(
+		$attachment_id,
+		'_transcend_image_license_url',
+		$image['license_url']
 	);
 
 	update_post_meta(
@@ -219,9 +290,25 @@ foreach ( $stories as $story ) {
 		)
 	);
 
+	/*
+	 * If the Story already exists, update its existing Featured Image
+	 * metadata rather than creating another Story.
+	 */
 	if ( ! empty( $existing ) ) {
+		$post_id = $existing[0]->ID;
+
+		$image_id = transcend_seed_featured_image(
+			$story['image'],
+			$post_id,
+			$story['title']
+		);
+
+		if ( $image_id ) {
+			set_post_thumbnail( $post_id, $image_id );
+		}
+
 		WP_CLI::log(
-			'Skipping existing Story: ' . $story['title']
+			'Updated existing Story: ' . $story['title']
 		);
 
 		continue;

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "transcend/story-card",
+  "version": "0.1.0",
+  "title": "Story Card",
+  "category": "design",
+  "icon": "format-aside",
+  "description": "Displays a Transcend Limits story.",
+  "attributes": {
+    "storyId": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "excerpt": {
+      "type": "string",
+      "default": ""
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "url": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "transcend-blocks",
+  "editorScript": "file:./index.js"
+}
