@@ -1,17 +1,64 @@
-.wp-block-transcend-hero .block-editor-plain-text {
-	background-color: #ffffff;
+.wp-block-transcend-hero .transcend-hero--editor {
+	position: relative;
+	display: block;
+	min-height: auto;
+	overflow: visible;
 	color: #000000;
 }
 
-.wp-block-transcend-hero .block-editor-plain-text::placeholder {
-	color: #000000;
-	opacity: 1;
+.wp-block-transcend-hero .transcend-hero--editor::after {
+	display: none;
 }
 
-.wp-block-transcend-hero .transcend-hero::after {
-	pointer-events: none;
+.wp-block-transcend-hero .transcend-hero__image-selector {
+	position: relative;
+	inset: auto;
+	z-index: 1;
+	width: 100%;
+	height: auto;
+	text-align: center;
 }
 
-.wp-block-transcend-hero .transcend-hero__image {
+.wp-block-transcend-hero .transcend-hero__image-selector img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.wp-block-transcend-hero .transcend-hero__image-selector .components-button {
+	position: relative;
 	z-index: 2;
+	margin: 1rem auto;
+}
+
+.wp-block-transcend-hero .transcend-hero__editor-content {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	color: #000000;
+}
+
+.wp-block-transcend-hero .transcend-hero__editor-content h1,
+.wp-block-transcend-hero .transcend-hero__editor-content p {
+	color: #000000;
+}
+
+.wp-block-transcend-hero
+	.transcend-hero__editor-content
+	.block-editor-plain-text {
+	color: #000000;
+	background: #ffffff;
+}
+
+.wp-block-transcend-hero .transcend-hero__editor-content .components-button {
+	position: relative;
+	z-index: 3;
+}
+
+.wp-block-transcend-hero .transcend-hero__editor-content a {
+	pointer-events: none;
 }

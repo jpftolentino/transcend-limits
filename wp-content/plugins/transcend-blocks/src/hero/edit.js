@@ -29,8 +29,8 @@ export default function Edit( { attributes, setAttributes } ) {
 
 	return (
 		<div { ...useBlockProps() }>
-			<div className="transcend-hero">
-				<div className="transcend-hero__image">
+<div className="transcend-hero transcend-hero--editor">
+	<div className="transcend-hero__image-selector">
 					<MediaUploadCheck>
 						<MediaUpload
 							onSelect={ onSelectImage }
@@ -72,7 +72,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					</MediaUploadCheck>
 				</div>
 
-				<div className="transcend-hero__content">
+				<div className="transcend-hero__content transcend-hero__editor-content">
 					<PlainText
 						tagName="h1"
 						value={ title }
