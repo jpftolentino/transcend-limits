@@ -7,3 +7,11 @@
 	color: #000000;
 	opacity: 1;
 }
+
+.wp-block-transcend-hero .transcend-hero::after {
+	pointer-events: none;
+}
+
+.wp-block-transcend-hero .transcend-hero__image {
+	z-index: 2;
+}
