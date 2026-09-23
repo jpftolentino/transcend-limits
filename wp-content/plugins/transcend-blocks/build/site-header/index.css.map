@@ -1,0 +1,1 @@
+{"version":3,"file":"site-header/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://transcend-blocks/./src/site-header/editor.scss"],"sourcesContent":[".wp-block-transcend-site-header {\n\toutline: 1px dashed #505d68;\n}"],"names":[],"sourceRoot":""}

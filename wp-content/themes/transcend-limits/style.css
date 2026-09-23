@@ -6,3 +6,140 @@ Description: Custom block theme for Transcend Limits.
 Version: 1.0.0
 Text Domain: transcend-limits
 */
+
+.transcend-navbar {
+  background-color: var(--wp--preset--color--white);
+  padding: var(--wp--preset--spacing--medium) 0;
+}
+
+.transcend-navbar__logo {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.transcend-navbar .navbar-nav {
+  gap: var(--wp--preset--spacing--small);
+}
+
+.transcend-navbar .nav-link {
+  color: var(--wp--preset--color--uoft-blue);
+  font-family: var(--wp--preset--font-family--trade-gothic);
+  font-weight: 700;
+  padding: 0.5rem 0.75rem;
+}
+
+.transcend-navbar .nav-link:hover,
+.transcend-navbar .nav-link:focus {
+  color: var(--wp--preset--color--fuchsia);
+}
+
+.transcend-navbar .navbar-toggler {
+  border-color: var(--wp--preset--color--uoft-white);
+}
+
+.transcend-navbar .navbar-toggler-icon {
+  background-image: none;
+  position: relative;
+  width: 1.5rem;
+  height: 1rem;
+  border-top: 2px solid var(--wp--preset--color--uoft-blue);
+  border-bottom: 2px solid var(--wp--preset--color--uoft-blue);
+}
+
+.transcend-navbar .navbar-toggler-icon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  border-top: 2px solid var(--wp--preset--color--uoft-blue);
+  transform: translateY(-50%);
+}
+
+.transcend-footer {
+  background-color: var(--wp--preset--color--uoft-blue);
+  color: var(--wp--preset--color--white);
+}
+
+.transcend-footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.transcend-footer li {
+  color: #c2d1d9;
+}
+
+.transcend-footer a {
+  color: #c2d1d9;
+  text-decoration: none;
+}
+
+.transcend-footer a:hover,
+.transcend-footer a:focus {
+  color: #fff;
+}
+
+.transcend-footer section:first-child > a {
+  display: inline-block;
+}
+
+.story-card-image {
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.story-card-title {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.story-grid-section {
+  background-color: #d9f1f7;
+}
+
+.story-card-link {
+  width: fit-content;
+  border: 2px solid #000;
+  border-radius: 999px;
+  color: var(--wp--preset--color--secondary-blue);
+  background: #fff;
+  padding: 0.6rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+.story-card-link:hover,
+.story-card-link:focus {
+  color: var(--wp--preset--color--white);
+  background: var(--wp--preset--color--secondary-blue);
+}
+
+
+.story-grid-title{
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 991.98px) {
+  .transcend-navbar .navbar-collapse {
+    padding-top: var(--wp--preset--spacing--medium);
+  }
+
+  .transcend-navbar .navbar-nav {
+    gap: var(--wp--preset--spacing--small);
+  }
+
+  .transcend-navbar .nav-link {
+    padding: 0.75rem 2rem;
+  }
+}
+

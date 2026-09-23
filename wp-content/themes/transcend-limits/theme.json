@@ -1,11 +1,169 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 3,
-	"settings": {
-		"appearanceTools": true,
-		"layout": {
-			"contentSize": "1200px",
-			"wideSize": "1400px"
-		}
-	}
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+
+  "settings": {
+    "appearanceTools": true,
+
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+
+    "color": {
+      "palette": [
+        {
+          "slug": "uoft-blue",
+          "name": "U of T Blue",
+          "color": "#1E3765"
+        },
+        {
+          "slug": "secondary-blue",
+          "name": "Secondary Blue",
+          "color": "#007FA3"
+        },
+        {
+          "slug": "purple",
+          "name": "purple",
+          "color": "#6d247a"
+        },        
+        {
+          "slug": "warm-red",
+          "name": "Warm Red",
+          "color": "#dc4633"
+        },
+        {
+          "slug": "cool-blue",
+          "name": "Cool Blue",
+          "color": "#6fc7ea"
+        },
+        {
+          "slug": "teal",
+          "name": "teal",
+          "color": "#00a189"
+        },
+        {
+          "slug": "fuchsia",
+          "name": "Fuchsia",
+          "color": "#ab1368"
+        },
+        {
+          "slug": "light-green",
+          "name": "Light Green",
+          "color": "#8dbf2e"
+        },
+        {
+          "slug": "dark-green",
+          "name": "Dark Green",
+          "color": "#0D534D"
+        },
+        {
+          "slug": "yellow",
+          "name": "Yellow",
+          "color": "#F1C500"
+        },
+        {
+          "slug": "white",
+          "name": "White",
+          "color": "#FFFFFF"
+        },
+        {
+          "slug": "cool-gray",
+          "name": "Cool Gray",
+          "color": "#D0D1C9"
+        },
+        {
+          "slug": "black",
+          "name": "Black",
+          "color": "#000000"
+        }
+      ]
+    },
+
+    "typography": {
+      "fontFamilies": [
+        {
+          "slug": "trade-gothic",
+          "name": "Trade Gothic",
+          "fontFamily": "\"Trade Gothic\", Arial, sans-serif"
+        },
+        {
+          "slug": "bembo",
+          "name": "Bembo",
+          "fontFamily": "\"Bembo\", \"Times New Roman\", serif"
+        }
+      ],
+
+      "fontSizes": [
+        {
+          "slug": "small",
+          "name": "Small",
+          "size": "0.875rem"
+        },
+        {
+          "slug": "medium",
+          "name": "Medium",
+          "size": "1rem"
+        },
+        {
+          "slug": "large",
+          "name": "Large",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "x-large",
+          "name": "Extra Large",
+          "size": "2.5rem"
+        },
+        {
+          "slug": "xx-large",
+          "name": "XX Large",
+          "size": "4rem"
+        }
+      ]
+    },
+
+    "spacing": {
+      "blockGap": null,
+      "spacingSizes": [
+        {
+          "slug": "small",
+          "name": "Small",
+          "size": "0.5rem"
+        },
+        {
+          "slug": "medium",
+          "name": "Medium",
+          "size": "1rem"
+        },
+        {
+          "slug": "large",
+          "name": "Large",
+          "size": "2rem"
+        },
+        {
+          "slug": "x-large",
+          "name": "Extra Large",
+          "size": "4rem"
+        },
+        {
+          "slug": "xx-large",
+          "name": "XX Large",
+          "size": "6rem"
+        }
+      ]
+    }
+  },
+
+  "styles": {
+    "color": {
+      "background": "var:preset|color|white",
+      "text": "var:preset|color|u-of-t-blue"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|trade-gothic",
+      "fontSize": "1rem",
+      "lineHeight": "1.5"
+    }
+  }
 }

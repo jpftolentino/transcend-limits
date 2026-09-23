@@ -1,1 +1,78 @@
-.wp-block-transcend-site-header{background:#fff;color:#071e4e;width:100%}.transcend-site-header__inner{align-items:center;display:flex;gap:48px;justify-content:space-between;margin:0 auto;padding:24px 0;width:min(1200px,100% - 48px)}.transcend-site-header__brand{align-items:center;display:flex;flex-shrink:0}.transcend-site-header__brand a{color:#071e4e;display:block;text-decoration:none}.transcend-site-header__brand img{display:block;height:64px;max-width:180px;object-fit:contain;width:auto}.transcend-site-header__nav{align-items:center;display:flex;gap:28px}.transcend-site-header__nav a{color:#071e4e;font-size:.95rem;font-weight:600;text-decoration:none}.transcend-site-header__nav a:focus,.transcend-site-header__nav a:hover{color:#cc0052}.transcend-site-header__nav a:focus-visible{outline:2px solid #cc0052;outline-offset:4px}.transcend-site-header__logo-button{background:transparent;border:0;padding:0}.transcend-site-header__logo-button img{display:block;height:64px;max-width:180px;object-fit:contain;width:auto}
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/site-header/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+.wp-block-transcend-site-header {
+  width: 100%;
+  background: #ffffff;
+  color: #071e4e;
+}
+
+.transcend-site-header__inner {
+  width: min(1200px, 100% - 48px);
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.transcend-site-header__brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.transcend-site-header__brand a {
+  display: block;
+  color: #071e4e;
+  text-decoration: none;
+}
+
+.transcend-site-header__brand img {
+  display: block;
+  width: auto;
+  max-width: 180px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.transcend-site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.transcend-site-header__nav a {
+  color: #071e4e;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.transcend-site-header__nav a:hover,
+.transcend-site-header__nav a:focus {
+  color: #cc0052;
+}
+
+.transcend-site-header__nav a:focus-visible {
+  outline: 2px solid #cc0052;
+  outline-offset: 4px;
+}
+
+/*
+ * Used by the MediaUpload button in the block editor.
+ */
+.transcend-site-header__logo-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.transcend-site-header__logo-button img {
+  display: block;
+  width: auto;
+  max-width: 180px;
+  height: 64px;
+  object-fit: contain;
+}

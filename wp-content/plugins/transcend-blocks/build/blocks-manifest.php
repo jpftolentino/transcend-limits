@@ -38,6 +38,8 @@ return array(
 			'html' => false
 		),
 		'textdomain' => 'transcend-blocks',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
 		'editorScript' => 'file:./index.js'
 	),
 	'site-header' => array(
